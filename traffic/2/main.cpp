@@ -7,12 +7,14 @@
 
 #include<iostream>
 #include<string>
+#include"view.h"
 #include"Graph.h"
 using namespace std;
 
 int main()
 {
     Graphlnk a;
-    a.init("./city/");
-    a.print();
+    a.readfile();
+    //a.print();
+    Register(a);
 }
